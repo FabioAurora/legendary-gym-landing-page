@@ -6,15 +6,6 @@ Project- Landing Page (#TheOdinProject)
 
 Create a landing page based on the following layout, I will work on a Gym landing page theme and try to personalize the layout given.
 
-![Layout](./project-layout/odin-project.png)
-
-<br><br>
-
-## Colors and fonts used on given layout
-
-<br><br>
-
-![css-info](./project-layout/colors_and_stuff.png)
 
 <br>
 
