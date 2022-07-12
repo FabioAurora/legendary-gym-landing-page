@@ -1,36 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legendary</title>
 
     <!-- CSS reset -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="assets/custom.css">
-</head>
-<body>
-    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assets/custom.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="left">
-                <img src="/assets/images/gym-logo.png" alt="Legendary logo, bodybuilder lifting weights">
-                <p><span>legend</span>ary</p>
-            </div>
-            <div class="right">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Classes</li>
-                    <li>Pricing</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </nav>
+      <nav id="navbar" class="navbar">
+        <div class="navbar-left">
+          <img class="navbar-img"
+            src="/assets/images/gym-logo.png"
+            alt="Legendary logo, bodybuilder lifting weights"
+          />
+          <p class="navbar-brand"><span class="brand-clr">legend</span>ary</p>
+        </div>
+        <div class="navbar-right">
+          <ul class="navbar-list">
+            <li><a href="#" class="navbar-links">Home</a></li>
+            <li><a href="#" class="navbar-links">About</a></li>
+            <li><a href="#" class="navbar-links">Classes</a></li>
+            <li><a href="#" class="navbar-links pricing">Pricing</a></li>
+            <li><a href="#" class="navbar-links">Contact</a></li>
+          </ul>
+        </div>
+        <button id="mobile-toggle-btn" class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
     </header>
 
+    <main class="main-container">
+      <section class="hero">
+        <div class="hero_information-ctn section-padding section_max-width">
+          <h1 class="hero_information-title">
+            Now <span class="information-deal">55% Off</span> Any Monthly Pass
+          </h1>
+          <p class="hero-information">
+            Bodybuilding & Gym Fitness Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Molestiae similique repellendus ducimus earum.
+            Officia perferendis, nemo eaque cupiditate fugit qui excepturi at
+            tempora impedit cumque in incidunt quod dicta enim?
+          </p>
+          <button class="hero-btn">Get started</button>
+        </div>
+
+        <div class="hero-img">
+          <img
+            src="/assets/images/jakob-owens-qkQwDvRqQY8-unsplash-removebg-preview.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="about section-padding section_max-width">
+        <div class="section-ctn">
+          <h2 class="section-title">about us</h2>
+          <div class="about-information">
+            <p class="about-para">There is no limit to what you are capable of, physically and mentally. The Limit is about perseverance. The goal is to push yourself past your individual limit.</p>
+            <p class="about-para">We believe that each person requires unique training for their personal abilities. Our trainers are all certified and able to adapt to your needs, whether you are dealing with an injury or health issue, are pregnant or postpartum or you’re just looking for the ultimate challenge. There’s always a way to train hard and get results.</p>
+            <p class="about-para">Our videos provide a variety of workouts with movements that are simple, effective and safe, no matter your level. We prioritize proper form and biomechanics with clear instructions. Our goal is to make you feel strong and confident in yourself, no matter your level.</p>
+            <p class="about-para">We are excited to help you find your limit and push yourself past it. Now let’s do it!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trainers section-ctn">
+        <h2 class="section-title">MEET OUR TRAINERS & STAFF</h2>
+        <div class="cards">
+          <div class="card">
+              <img src="/assets/images/kristina-sidorov.jpg" alt="">
+              <div>
+                <h3></h3>
+                <span></span>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script src="assets/script.js"></script>
-</body>
+  </body>
 </html>
