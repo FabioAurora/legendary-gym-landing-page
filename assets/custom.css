@@ -23,6 +23,7 @@ a {
     text-decoration: none;
 }
 
+
 /* repeatable CSS */
 .section-padding {
     padding: 3.6rem 2.3rem;
@@ -35,7 +36,6 @@ a {
 .section-ctn {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1.2rem;
 }
 
@@ -45,6 +45,7 @@ a {
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 1.4rem;
+    text-align: center;
 }
 
 
@@ -170,7 +171,7 @@ a {
 }
 
 .hero_information-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.2rem;
     color: var(--hero-main-text);
     font-weight: 700;
@@ -212,5 +213,42 @@ a {
 }
 
 .about-para {
+    line-height: 1.2;
+}
+
+/* *************************** */
+/* Trainer, cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.card {
+    max-width: 300px;
+    position: relative;
+}
+
+.card-modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(65, 160, 104, 0.473);
+    padding: .5rem;
+    width: 80%;
+    border-top-right-radius: .5rem;
+}
+.card-modal h3 {
+    color: var(--hero-main-text);
+    margin-bottom: .5rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.card-modal span {
+    color: var(--hero-secondary-text);
     line-height: 1.2;
 }
