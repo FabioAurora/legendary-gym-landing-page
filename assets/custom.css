@@ -167,7 +167,7 @@ footer {
 /* ************************************* */
 /* Hero Section */
 .hero {
-  background-image: url("/assets/images/gym.jpg");
+  background-image: url("images/gym.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -273,7 +273,7 @@ footer {
 /* *********************** */
 /* Join Us section */
 .join-ctn {
-  background-image: url("/assets/images/gym.jpg");
+  background-image: url("images/gym.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
